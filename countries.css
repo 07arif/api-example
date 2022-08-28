@@ -1,0 +1,25 @@
+#countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.country {
+    background-color: yellow;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
